@@ -3,7 +3,7 @@
 // ---------------------------------------------------------------------------------- //
 
 
-var textoPrincipal = "Serviços especializados em gestão das atividades financeiras, comerciais, operacionais e administrativas."
+var textoPrincipal = "Serviços especializados em gerenciamento das atividades financeiras, comerciais, operacionais e administrativas."
 $("#textoPrincipal").html(textoPrincipal);
 
 var btnInfo = "Mais informações"
