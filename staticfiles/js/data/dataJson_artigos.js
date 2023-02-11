@@ -1,4 +1,4 @@
-let artigosJson = [
+let dataJson = [
     {
         id: 1,
         img: '../../staticfiles/img/financeiro.webp',

@@ -1,7 +1,6 @@
 const dqS = (element) => document.querySelector(element);
-const dqSA = (element) => document.querySelectorAll(element);
 
-artigosJson.map(function (item, index) {
+dataJson.map(function (item, index) {
     let dataJsonItem = dqS('.dataJson-models .dataJson-item').cloneNode(true);
 
     dataJsonItem.setAttribute('data-key', index)
