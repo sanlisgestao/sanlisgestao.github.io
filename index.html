@@ -30,7 +30,8 @@
 
     <header id="navegacao">
         <section class="center">
-            <h2 class="logo left"><a href="">SanLis Gestão</a></h2><!-- nome -->
+            <h2 class="logo left"><a href="">SanLis Gestão</a></h2>
+
             <nav class="desktop right">
                 <ul>
                     <li><a href="#servicos" onclick="esconderEquipe()">Serviços</a></li>
@@ -39,6 +40,7 @@
                     <li><a href="#rodape" onclick="esconderEquipe()">Contato</a></li>
                 </ul>
             </nav><!-- desktop -->
+
             <nav class="mobile right">
                 <div class="botao-menu-mobile">
                     <i class="fa fa-bars" aria-hidden="true"></i>
@@ -51,34 +53,37 @@
                     <li><a href="#rodape" onclick="esconderEquipe()">Contato</a></li>
                 </ul>
             </nav><!-- mobile -->
-            <div class="clear"></div><!-- clear -->
-        </section><!-- center -->
+            
+            <div class="clear"></div>
+        </section>
     </header><!-- navegação -->
 
     <div class="conteudo"></div><!-- conteudo -->
 
     <section class="home banner-container">
         <div class="center">
-            <div class="banner-single imgFinanceiro"></div><!-- banner-single -->
-            <div class="banner-single imgProcessos"></div><!-- banner-single -->
-            <div class="banner-single imgEstrutura"></div><!-- banner-single -->
-            <div class="overlay"></div><!-- overlay -->
+            <div class="banner-single imgFinanceiro"></div>
+            <div class="banner-single imgProcessos"></div>
+            <div class="banner-single imgEstrutura"></div>
+            <div class="overlay"></div>
             <div>
                 <h5 id="textoPrincipal"></h5>
             </div>
-        </div><!-- center -->
+        </div>
     </section><!-- Banner Principal -->
 
     <section id="quemsomos">
         <div class="conteudo"></div><!-- conteudo -->
+
         <div class="center">
             <div class="center">
                 <h2>Quem Somos</h2>
                 <h6 class="textoQuemSomos"></h6>
-            </div><!-- center -->
+            </div>
+
             <article id="nossa-equipe">
                 <div class="center">
-                    <div class="w50 left">
+                    <section class="w50 left">
                         <div class="w50 left">
                             <div>
                                 <h4>Angelita Santos</h4>
@@ -99,8 +104,9 @@
                                 auto peças.
                             </h6>
                         </div><!-- w50 left -->
-                    </div><!-- Angelita Santos w50 left -->
-                    <div class="w50 left">
+                    </section><!-- Angelita Santos w50 left -->
+
+                    <section class="w50 left">
                         <div class="w50 left">
                             <div>
                                 <h4>Sylmara Lisboa</h4>
@@ -121,11 +127,13 @@
                                 criação de produto.
                             </h6>
                         </div><!-- Sylmara Lisboa w50 left -->
-                    </div><!-- w50 left -->
-                    <div class="clear"></div><!-- clear -->
-                </div><!-- center -->
+                    </section><!-- Sylmara Lisboa w50 left -->
+
+                    <div class="clear"></div>
+                </div>
             </article><!-- Nossa equipe -->
-        </div><!-- center -->
+
+        </div>
     </section><!-- Quem Somos -->
 
     <section id="servicos">
@@ -133,6 +141,7 @@
         <h2>Nossos Serviços</h2>
 
         <div class="center cardsgroup">
+
             <article class="w33 left">
                 <header>
                     <h5>Gestão Financeira</h5>
@@ -142,6 +151,7 @@
                 </div>
                 <footer><a href="#rodape"><button class="btnInfo" type="button"></button></a></footer>
             </article><!-- Gestão Financeira -->
+
             <article class="w33 left">
                 <header>
                     <h5>Gestão de Vendas</h5>
@@ -151,6 +161,7 @@
                 </div>
                 <footer><a href="#rodape"><button class="btnInfo" type="button"></button></a></footer>
             </article><!-- Gestão de Vendas -->
+
             <article class="w33 left">
                 <header>
                     <h5>Gestão de Estoque</h5>
@@ -160,10 +171,13 @@
                 </div>
                 <footer><a href="#rodape"><button class="btnInfo" type="button"></button></a></footer>
             </article><!-- Gestão de Estoque -->
-            <div class="clear"></div><!-- clear -->
+
+            <div class="clear"></div>
+
         </div><!-- center cardsgroup -->
 
         <div class="center cardsgroup">
+
             <article class="w33 left">
                 <header>
                     <h5>Gestão de Compras</h5>
@@ -173,6 +187,7 @@
                 </div>
                 <footer><a href="#rodape"><button class="btnInfo" type="button"></button></a></footer>
             </article><!-- Gestão de Compras -->
+
             <article class="w33 left">
                 <header>
                     <h5>Gestão de Produção</h5>
@@ -182,6 +197,7 @@
                 </div>
                 <footer><a href="#rodape"><button class="btnInfo" type="button"></button></a></footer>
             </article><!-- Gestão de Produção -->
+
             <article class="w33 left">
                 <header>
                     <h5>Gestão Administrativa</h5>
@@ -191,7 +207,9 @@
                 </div>
                 <footer><a href="#rodape"><button class="btnInfo" type="button"></button></a></footer>
             </article><!-- Gestão Administrativa -->
-            <div class="clear"></div><!-- clear -->
+
+            <div class="clear"></div>
+
         </div><!-- center cardsgroup -->
 
     </section><!-- Serviços -->
@@ -210,31 +228,33 @@
                     <ul>
                         <li><a href="#quemsomos" onclick="mostrarEquipe()">Quem Somos</a></li>
                         <li><a href="#servicos">Nossos Serviços</a></li>
-                        <li><a href="#planos">Nossos Planos</a></li>
+                        <li><a href="/templates/planos.html">Nossos Planos</a></li>
                         <li><a href="#clientes">Nossos Clientes</a></li>
                     </ul>
-                </div><!-- textcenter -->
+                </div>
             </article><!-- Institucional -->
+
             <article class="w20 left">
                 <div class="textcenter">
                     <header>
                         <h6>Conteúdo</h6>
                     </header>
                     <ul>
-                        <li><a href="#rodape">Blog</a></li>
+                        <li><a href="/templates/artigos.html">Blog</a></li>
                         <li><a href="https://drive.google.com/drive/folders/1R1l-behXWj0xBBMhD6XLfQ1G-KnZCkz1?usp=sharing"
                                 target="_blank">Downloads</a></li>
                         <li><a href="#rodape">Agenda</a></li>
                         <li><a href="#rodape">Podcasts</a></li>
                     </ul>
-                </div><!-- textcenter -->
+                </div>
             </article><!-- Conteúdo -->
+
             <article class="w20 left">
                 <div class="textcenter">
                     <header>
                         <h6>Dados para Contato</h6>
                         <p><strong>E-mail</strong></p>
-                        <p><a href="https://outlook.live.com/owa/" target="_blank"
+                        <p><a href="https://br.yahoo.com/?p=us" target="_blank"
                                 role="button">sanlisgestao@yahoo.com</a></p>
                         <p><strong>Telefone</strong></p>
                         <p>(31) 98112-4429</p>
@@ -242,13 +262,16 @@
                         <p>Segunda-feira a Sexta-feira</p>
                         <p>08h00 às 18h00</p>
                     </header>
-                </div><!-- textcenter    -->
+                </div>
             </article><!-- E-mail e Telefone -->
+
             <article class="w20 left">
                 <div class="textcenter">
+
                     <header>
                         <h6>Redes Sociais</h6>
                     </header>
+
                     <div class="redessociais w50 center">
                         <a href="https://wa.me/message/OXVJNATOPP7QK1" target="_blank"><i
                                 class="fab fa-whatsapp-square fa-3x"></i></a>
@@ -264,15 +287,9 @@
                         <div class="clear"></div><!-- clear -->
                     </div>
 
-                    <div class="redessociais w50 center">
-                        <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
-                        <a href="https://www.facebook.com" target="_blank"><i
-                                class="fab fa-facebook-square fa-3x"></i></a>
-                        <div class="clear"></div><!-- clear -->
-                    </div>
-
-                </div><!-- textcenter -->
+                </div>
             </article><!-- Redes Sociais -->
+
             <article class="w20 left">
                 <div class="textcenter">
                     <header>
@@ -284,8 +301,11 @@
                     </ul>
                 </div>
             </article><!-- Área Restrita -->
+
             <div class="clear"></div><!-- clear -->
         </div><!-- center -->
+
+        <div class="conteudo"></div><!-- conteudo -->
     </footer><!-- Rodapé -->
 
     <!-- JavaScript -->
