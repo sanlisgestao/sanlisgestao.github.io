@@ -34,8 +34,8 @@
             <nav class="desktop right">
                 <ul>
                     <li><a href="#servicos" onclick="esconderEquipe()">Serviços</a></li>
-                    <li><a href="#planos" onclick="esconderEquipe()">Planos</a></li>
-                    <li><a href="#artigos" onclick="esconderEquipe()">Artigos</a></li>
+                    <li><a href="/templates/planos.html" onclick="esconderEquipe()">Planos</a></li>
+                    <li><a href="/templates/artigos.html" onclick="esconderEquipe()">Artigos</a></li>
                     <li><a href="#rodape" onclick="esconderEquipe()">Contato</a></li>
                 </ul>
             </nav><!-- desktop -->
@@ -46,8 +46,8 @@
                 <ul>
                     <li><a href="#quemsomos" onclick="mostrarEquipe()">Equipe</a></li>
                     <li><a href="#servicos" onclick="esconderEquipe()">Serviços</a></li>
-                    <li><a href="#planos" onclick="esconderEquipe()">Planos</a></li>
-                    <li><a href="#artigos" onclick="esconderEquipe()">Artigos</a></li>
+                    <li><a href="/templates/planos.html" onclick="esconderEquipe()">Planos</a></li>
+                    <li><a href="/templates/artigos.html" onclick="esconderEquipe()">Artigos</a></li>
                     <li><a href="#rodape" onclick="esconderEquipe()">Contato</a></li>
                 </ul>
             </nav><!-- mobile -->
@@ -63,7 +63,9 @@
             <div class="banner-single imgProcessos"></div><!-- banner-single -->
             <div class="banner-single imgEstrutura"></div><!-- banner-single -->
             <div class="overlay"></div><!-- overlay -->
-            <div><h5 id="textoPrincipal"></h5></div>
+            <div>
+                <h5 id="textoPrincipal"></h5>
+            </div>
         </div><!-- center -->
     </section><!-- Banner Principal -->
 
@@ -104,7 +106,8 @@
                                 <h4>Sylmara Lisboa</h4>
                                 <p>
                                     <a href="https://www.linkedin.com/in/sylmara-lisboa-137731141/"
-                                        target="_blank">Gestora de Processos</a></p>
+                                        target="_blank">Gestora de Processos</a>
+                                </p>
                                 <div>
                                     <a href="https://www.linkedin.com/in/sylmara-lisboa-137731141/" target="_blank">
                                         <img src="staticfiles/img/sylmara.jpg" title="Sylmara Lisboa"></a>
@@ -131,18 +134,30 @@
 
         <div class="center cardsgroup">
             <article class="w33 left">
-                <header><h5>Gestão Financeira</h5></header>
-                <div><h6 class="textoFinanceiro"></h6></div>
+                <header>
+                    <h5>Gestão Financeira</h5>
+                </header>
+                <div>
+                    <h6 class="textoFinanceiro"></h6>
+                </div>
                 <footer><a href="#rodape"><button class="btnInfo" type="button"></button></a></footer>
             </article><!-- Gestão Financeira -->
             <article class="w33 left">
-                <header><h5>Gestão de Vendas</h5></header>
-                <div><h6 class="textoVendas"></h6></div>
+                <header>
+                    <h5>Gestão de Vendas</h5>
+                </header>
+                <div>
+                    <h6 class="textoVendas"></h6>
+                </div>
                 <footer><a href="#rodape"><button class="btnInfo" type="button"></button></a></footer>
             </article><!-- Gestão de Vendas -->
             <article class="w33 left">
-                <header><h5>Gestão de Estoque</h5></header>
-                <div><h6 class="textoEstoque"></h6></div>
+                <header>
+                    <h5>Gestão de Estoque</h5>
+                </header>
+                <div>
+                    <h6 class="textoEstoque"></h6>
+                </div>
                 <footer><a href="#rodape"><button class="btnInfo" type="button"></button></a></footer>
             </article><!-- Gestão de Estoque -->
             <div class="clear"></div><!-- clear -->
@@ -150,18 +165,30 @@
 
         <div class="center cardsgroup">
             <article class="w33 left">
-                <header><h5>Gestão de Compras</h5></header>
-                <div><h6 class="textoCompras"></h6></div>
+                <header>
+                    <h5>Gestão de Compras</h5>
+                </header>
+                <div>
+                    <h6 class="textoCompras"></h6>
+                </div>
                 <footer><a href="#rodape"><button class="btnInfo" type="button"></button></a></footer>
             </article><!-- Gestão de Compras -->
             <article class="w33 left">
-                <header><h5>Gestão de Produção</h5></header>
-                <div><h6 class="textoProducao"></h6></div>
+                <header>
+                    <h5>Gestão de Produção</h5>
+                </header>
+                <div>
+                    <h6 class="textoProducao"></h6>
+                </div>
                 <footer><a href="#rodape"><button class="btnInfo" type="button"></button></a></footer>
             </article><!-- Gestão de Produção -->
             <article class="w33 left">
-                <header><h5>Gestão Administrativa</h5></header>
-                <div><h6 class="textoAdministrativo"></h6></div>
+                <header>
+                    <h5>Gestão Administrativa</h5>
+                </header>
+                <div>
+                    <h6 class="textoAdministrativo"></h6>
+                </div>
                 <footer><a href="#rodape"><button class="btnInfo" type="button"></button></a></footer>
             </article><!-- Gestão Administrativa -->
             <div class="clear"></div><!-- clear -->
@@ -169,85 +196,11 @@
 
     </section><!-- Serviços -->
 
-    <section id="planos">
-        <div class="conteudo"></div><!-- conteudo -->
-        <h2>Planos Disponíveis</h2>
-        <h6>Escolha a melhor modalidade para você:</h6>
-        <h6>Presencial ou Online</h6>
-        <div class="center cardsgroup">
-            <article class="w33 left">
-                <header>
-                    <h5>Plano Básico</h5>
-                    <img src="staticfiles/img/planobasico.webp" alt="">
-                </header>
-                <div><h6 class="planoBasico"></h6></div>
-                <footer><a href="#rodape"><button class="btnSaibaMais" type="button"></button></a></footer>
-            </article><!-- Plano Básico -->
-            <article class="w33 left">
-                <header>
-                    <h5>Plano Prata</h5>
-                    <img src="staticfiles/img/planoprata.webp" alt="">
-                </header>
-                <div><h6 class="planoPrata"></h6></div>
-                <footer><a href="#rodape"><button class="btnSaibaMais" type="button"></button></a></footer>
-            </article><!-- Plano Prata -->
-            <article class="w33 left">
-                <header>
-                    <h5>Plano Ouro</h5>
-                    <img src="staticfiles/img/planoouro.jpg" alt="">
-                </header>
-                <div><h6 class="planoOuro"></h6></div>
-                <footer><a href="#rodape"><button class="btnSaibaMais" type="button"></button></a></footer>
-            </article><!-- Plano Ouro -->
-            <div class="clear"></div><!-- clear -->
-        </div><!-- center -->
-    </section><!-- Planos Disponíveis -->
-
-    <section id="artigos">
-        <div class="conteudo"></div><!-- conteudo -->
-        <h2>Artigos</h2>
-        <div class="center cardsgroup">
-            <article class="w33 left">
-                <header>
-                    <img src="staticfiles/img/financeiro.webp" alt="">
-                    <h5>Resultados</h5>
-                    <p>Publicado em: 15/11/2020</p>
-                    <hr>
-                </header>
-                <div>
-                    <h6 class="artigoFinanceiro"></h6>
-                </div>
-                <footer><a class="linkInfo" href="#rodape"></a></footer>
-            </article><!-- Financeiro -->
-            <article class="w33 left">
-                <header>
-                    <img src="staticfiles/img/processos.webp" alt="">
-                    <h5>Reestruturação</h5>
-                    <p>Publicado em: 15/11/2020</p>
-                    <hr>
-                </header>
-                <div>
-                    <h6 class="artigoProcesso"></h6>
-                </div>
-                <footer><a class="linkInfo" href="#rodape"></a></footer>
-            </article><!-- Processos -->
-            <article class="w33 left">
-                <header>
-                    <img src="staticfiles/img/estrategia.webp" alt="">
-                    <h5>Estratégia</h5>
-                    <p>Publicado em: 15/11/2020</p>
-                    <hr>
-                </header>
-                <div>
-                    <h6 class="artigoEstrutura"></h6>
-                </div>
-                <footer><a class="linkInfo" href="#rodape"></a></footer>
-            </article><!-- Estratégia -->
-            <div class="clear"></div><!-- clear -->
-        </div><!-- center -->
-    </section><!-- Artigos -->
+    <div class="conteudo"></div><!-- conteudo -->
 
     <footer id="rodape">
+        <div class="conteudo"></div><!-- conteudo -->
+
         <div class="center cardsgroup">
             <article class="w20 left">
                 <div class="textcenter">
@@ -269,7 +222,8 @@
                     </header>
                     <ul>
                         <li><a href="#rodape">Blog</a></li>
-                        <li><a href="https://drive.google.com/drive/folders/1R1l-behXWj0xBBMhD6XLfQ1G-KnZCkz1?usp=sharing" target="_blank">Downloads</a></li>
+                        <li><a href="https://drive.google.com/drive/folders/1R1l-behXWj0xBBMhD6XLfQ1G-KnZCkz1?usp=sharing"
+                                target="_blank">Downloads</a></li>
                         <li><a href="#rodape">Agenda</a></li>
                         <li><a href="#rodape">Podcasts</a></li>
                     </ul>
@@ -309,7 +263,7 @@
                                 class="fab fa-twitter-square fa-3x"></i></a>
                         <div class="clear"></div><!-- clear -->
                     </div>
-                    
+
                     <div class="redessociais w50 center">
                         <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
                         <a href="https://www.facebook.com" target="_blank"><i
