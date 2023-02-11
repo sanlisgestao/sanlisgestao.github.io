@@ -31,23 +31,3 @@ $(function(){
 
 
 })
-
-// Esconder e mostrar Equipe
-
-function mostrarEquipe(){
-    $("#botaoMostrar").hide();
-    $("#botaoEsconder").show();
-    $("#nossa-equipe").show();  
-}
-
-function esconderEquipe(){
-    $("#botaoMostrar").show();
-    $("#botaoEsconder").hide();
-    $("#nossa-equipe").hide();
-}
-
-$(function(){
-    $("#botaoMostrar").show();
-    $("#botaoEsconder").hide();
-    $("#nossa-equipe").hide();
-});

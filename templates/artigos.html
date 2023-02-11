@@ -16,6 +16,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
     <!-- Font Awesome, Google Font, CSS -->
+    <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
     <script src="https://kit.fontawesome.com/f7cb610b49.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link
@@ -28,34 +29,8 @@
 
 <body>
 
-    <header id="navegacao">
-        <section class="center">
-            <h2 class="logo left"><a href="../index.html">SanLis Gestão</a></h2>
-
-            <nav class="desktop right">
-                <ul>
-                    <li><a href="../index.html#servicos" onclick="esconderEquipe()">Serviços</a></li>
-                    <li><a href="../templates/planos.html" onclick="esconderEquipe()">Planos</a></li>
-                    <li><a href="../templates/artigos.html" onclick="esconderEquipe()">Artigos</a></li>
-                    <li><a href="../index.html#rodape" onclick="esconderEquipe()">Contato</a></li>
-                </ul>
-            </nav><!-- desktop -->
-
-            <nav class="mobile right">
-                <div class="botao-menu-mobile">
-                    <i class="fa fa-bars" aria-hidden="true"></i>
-                </div>
-                <ul>
-                    <li><a href="../index.html#quemsomos" onclick="mostrarEquipe()">Equipe</a></li>
-                    <li><a href="../index.html#servicos" onclick="esconderEquipe()">Serviços</a></li>
-                    <li><a href="../templates/planos.html" onclick="esconderEquipe()">Planos</a></li>
-                    <li><a href="../templates/artigos.html" onclick="esconderEquipe()">Artigos</a></li>
-                    <li><a href="../index.html#rodape" onclick="esconderEquipe()">Contato</a></li>
-                </ul>
-            </nav><!-- mobile -->
-
-            <div class="clear"></div>
-        </section>
+    <header id="nav-header">
+        <script type="text/javascript" src="../staticfiles/js/navegation.js"></script>
     </header><!-- navegação -->
 
     <div class="conteudo"></div><!-- conteudo -->
@@ -109,94 +84,8 @@
 
     <div class="conteudo"></div><!-- conteudo -->
 
-    <footer id="rodape">
-        <div class="conteudo"></div><!-- conteudo -->
-        
-        <div class="center cardsgroup">
-            <article class="w20 left">
-                <div class="textcenter">
-                    <header>
-                        <h6>Institucional</h6>
-                    </header>
-                    <ul>
-                        <li><a href="/index.html#quemsomos" onclick="mostrarEquipe()">Quem Somos</a></li>
-                        <li><a href="/index.html#servicos">Nossos Serviços</a></li>
-                        <li><a href="/templates/planos.html">Nossos Planos</a></li>
-                        <li><a href="/index.html#clientes">Nossos Clientes</a></li>
-                    </ul>
-                </div>
-            </article><!-- Institucional -->
-
-            <article class="w20 left">
-                <div class="textcenter">
-                    <header>
-                        <h6>Conteúdo</h6>
-                    </header>
-                    <ul>
-                        <li><a href="/templates/artigos.html">Blog</a></li>
-                        <li><a href="https://drive.google.com/drive/folders/1R1l-behXWj0xBBMhD6XLfQ1G-KnZCkz1?usp=sharing"
-                                target="_blank">Downloads</a></li>
-                        <li><a href="/index.html#rodape">Agenda</a></li>
-                        <li><a href="/index.html#rodape">Podcasts</a></li>
-                    </ul>
-                </div>
-            </article><!-- Conteúdo -->
-
-            <article class="w20 left">
-                <div class="textcenter">
-                    <header>
-                        <h6>Dados para Contato</h6>
-                        <p><strong>E-mail</strong></p>
-                        <p><a href="https://br.yahoo.com/?p=us" target="_blank"
-                                role="button">sanlisgestao@yahoo.com</a></p>
-                        <p><strong>Telefone</strong></p>
-                        <p>(31) 98112-4429</p>
-                        <p><strong>Horário de atendimento</strong></p>
-                        <p>Segunda-feira a Sexta-feira</p>
-                        <p>08h00 às 18h00</p>
-                    </header>
-                </div>
-            </article><!-- E-mail e Telefone -->
-
-            <article class="w20 left">
-                <div class="textcenter">
-                    <header>
-                        <h6>Redes Sociais</h6>
-                    </header>
-                    <div class="redessociais w50 center">
-                        <a href="https://wa.me/message/OXVJNATOPP7QK1" target="_blank"><i
-                                class="fab fa-whatsapp-square fa-3x"></i></a>
-                        <a href="https://t.me/sanlisgestao" target="_blank"><i class="fab fa-telegram fa-3x"></i></a>
-                        <div class="clear"></div><!-- clear -->
-                    </div>
-
-                    <div class="redessociais w50 center">
-                        <a href="https://www.instagram.com/sanlisgestao" target="_blank"><i
-                                class="fab fa-instagram fa-3x"></i></a>
-                        <a href="https://www.twitter.com/sanlisgestao" target="_blank"><i
-                                class="fab fa-twitter-square fa-3x"></i></a>
-                        <div class="clear"></div><!-- clear -->
-                    </div>
-
-                </div>
-            </article><!-- Redes Sociais -->
-
-            <article class="w20 left">
-                <div class="textcenter">
-                    <header>
-                        <h6>Área Restrita</h6>
-                    </header>
-                    <ul>
-                        <li><a href="/index.html#rodape"><button type="button">Entrar</button></a></li>
-                        <li><a href="/index.html#rodape"><button type="button">Registrar</button></a></li>
-                    </ul>
-                </div>
-            </article><!-- Área Restrita -->
-
-            <div class="clear"></div>
-        </div>
-
-        <div class="conteudo"></div><!-- conteudo -->
+    <footer id="nav-footer">
+        <script type="text/javascript" src="../staticfiles/js/navegation.js"></script>
     </footer><!-- Rodapé -->
 
     <!-- JavaScript -->
