@@ -1,99 +1,79 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-<head>
-    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=7,edge,chrome=1">
-    <title>SanLis Gestão</title>
-    <link rel="shortcut icon" href="../staticfiles/img/logo.png" type="image/x-icon">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=7,edge,chrome=1">
+        <title>SanLis Gestão</title>
+        <link rel="shortcut icon" href="../staticfiles/img/logo.png" type="image/x-icon">
 
-    <!-- SEO -->
-    <meta name="description"
-        content="SanLis Gestão Serviços especializados em gerenciamento das atividades financeiras, administrativas e operacionais.">
-    <meta name="keywords"
-        content="gestão,serviços,especializados,empresarial,consultoria, vendas, financeiro, compras, estoque, produção, administrativo, processos, tarefas, atividades">
-    <meta name="author" content="Angelita Santos">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+        <!-- SEO -->
+        <meta name="description"
+            content="SanLis Gestão Serviços especializados em gerenciamento das atividades financeiras, administrativas e operacionais.">
+        <meta name="keywords"
+            content="gestão,serviços,especializados,empresarial,consultoria, vendas, financeiro, compras, estoque, produção, administrativo, processos, tarefas, atividades">
+        <meta name="author" content="Angelita Santos">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-    <!-- Font Awesome, Google Font, CSS -->
-    <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
-    <script src="https://kit.fontawesome.com/f7cb610b49.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="../staticfiles/css/root.css">
-    <link rel="stylesheet" href="../staticfiles/css/style.css">
-    <link rel="stylesheet" href="../staticfiles/css/responsive.css">
-</head>
+        <!-- Font Awesome, Google Font, CSS -->
+        <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+        <script src="https://kit.fontawesome.com/f7cb610b49.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="../staticfiles/css/root.css">
+        <link rel="stylesheet" href="../staticfiles/css/style.css">
+        <link rel="stylesheet" href="../staticfiles/css/responsive.css">
+    </head>
 
-<body>
+    <body>
 
-    <header id="nav-header">
-        <script type="text/javascript" src="../staticfiles/js/navegation.js"></script>
-    </header><!-- navegação -->
+        <header id="nav-header">
+            <script type="text/javascript" src="../staticfiles/js/navegation.js"></script>
+        </header><!-- navegação -->
 
-    <div class="conteudo"></div><!-- conteudo -->
-
-    <section id="artigos">
         <div class="conteudo"></div><!-- conteudo -->
-        <h2>Artigos</h2>
-        <div class="center cardsgroup">
-            <article class="w33 left">
+
+        <section id="artigos">
+
+            <div class="conteudo"></div><!-- conteudo -->
+            <h2 id="companies">Artigos</h2>
+
+            <div class="dataJson-area center cardsgroup"></div>
+
+        </section>
+
+        <section class="dataJson-models">
+            <article class="dataJson-item w33">
+                <div class="conteudo"></div><!-- conteudo -->
                 <header>
-                    <img src="../staticfiles/img/financeiro.webp" alt="">
-                    <h5>Resultados</h5>
-                    <p>Publicado em: 15/11/2020</p>
+                    <div class="dataJson-item--img"><img class="img-data" src="" /></div>
+                    <h5><div class="dataJson-item--title"></div></h5>
+                    <p>Publicado em: <span class="dataJson-item--date"></span></p>
                     <hr>
                 </header>
                 <div>
-                    <h6 class="artigoFinanceiro"></h6>
+                    <h6 class="dataJson-item--resume"></h6>
                 </div>
-                <footer><a class="linkInfo" href="#rodape"></a></footer>
-            </article><!-- Financeiro -->
+                <div class=""><a href="">Continue lendo ...</a></div>
+            </article>
+        </section><!-- Artigos -->
 
-            <article class="w33 left">
-                <header>
-                    <img src="../staticfiles/img/processos.webp" alt="">
-                    <h5>Reestruturação</h5>
-                    <p>Publicado em: 15/11/2020</p>
-                    <hr>
-                </header>
-                <div>
-                    <h6 class="artigoProcesso"></h6>
-                </div>
-                <footer><a class="linkInfo" href="#rodape"></a></footer>
-            </article><!-- Processos -->
+        <div class="conteudo"></div><!-- conteudo -->
 
-            <article class="w33 left">
-                <header>
-                    <img src="../staticfiles/img/estrategia.webp" alt="">
-                    <h5>Estratégia</h5>
-                    <p>Publicado em: 15/11/2020</p>
-                    <hr>
-                </header>
-                <div>
-                    <h6 class="artigoEstrutura"></h6>
-                </div>
-                <footer><a class="linkInfo" href="#rodape"></a></footer>
-            </article><!-- Estratégia -->
+        <footer id="nav-footer">
+            <script type="text/javascript" src="../staticfiles/js/navegation.js"></script>
+        </footer><!-- Rodapé -->
 
-            <div class="clear"></div>
-        </div>
-    </section><!-- Artigos -->
+        <!-- JavaScript -->
+        <script type="text/javascript" src="../staticfiles/js/jquery.min.js"></script>
+        <script type="text/javascript" src="../staticfiles/js/main.js"></script>
+        <script type="text/javascript" src="../staticfiles/js/slide.js"></script>
+        <script type="text/javascript" src="../staticfiles/js/scripts.js"></script>
+        <script type="text/javascript" src="../staticfiles/js/data/dataJson_artigos.js"></script>
+        <script type="text/javascript" src="../staticfiles/js/data/data_artigos.js"></script>
 
-    <div class="conteudo"></div><!-- conteudo -->
-
-    <footer id="nav-footer">
-        <script type="text/javascript" src="../staticfiles/js/navegation.js"></script>
-    </footer><!-- Rodapé -->
-
-    <!-- JavaScript -->
-    <script type="text/javascript" src="../staticfiles/js/jquery.min.js"></script>
-    <script type="text/javascript" src="../staticfiles/js/main.js"></script>
-    <script type="text/javascript" src="../staticfiles/js/slide.js"></script>
-    <script type="text/javascript" src="../staticfiles/js/scripts.js"></script>
-
-</body>
+    </body>
 
 </html>

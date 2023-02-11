@@ -56,14 +56,3 @@ $(".textoProducao").html(textoProducao);
 
 var textoAdministrativo = "Gerenciar as rotinas a fim de permitir que profissionais sejam capazes de resolver problemas do dia a dia e de minimizar a sobrecarga de supervisores e gerentes."
 $(".textoAdministrativo").html(textoAdministrativo);
-
-
-
-var artigoFinanceiro = "Maior eficiência do processo orçamentário e de controle dos gastos e crescimento da receita operacional, com melhoria da margem de contribuição."
-$(".artigoFinanceiro").html(artigoFinanceiro);
-
-var artigoProcesso = "Padronização dos procedimentos gerenciais e operacionais com aumento da produtividade e garantia de processos estáveis e padronizados."
-$(".artigoProcesso").html(artigoProcesso);
-
-var artigoEstrutura = "Foco nos resultados de médio e longo prazo e maximização do lucro e do crescimento sustentado. Aumento da confiabilidade nos serviços e produtos."
-$(".artigoEstrutura").html(artigoEstrutura);
