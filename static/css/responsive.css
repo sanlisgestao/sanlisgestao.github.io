@@ -77,21 +77,20 @@
     nav.mobile li {
         width: 100%;
         display: block;
-        background: var(--verdeDarkGreen);
+        background: var(--verdeForestGreen);
         border-bottom: 1px solid var(--cinzaSilver);
         font-size: 1.2rem;
         font-weight: 300;
         padding: 5px 0;
-    }
-
-    nav.mobile li a {
-        display: block;
-        color: var(--branco);
         text-decoration: none;
     }
 
-    nav.mobile li a:hover {
-        color: var(--verdeYellowGreen);
+    nav.mobile li a {
+        color: var(--branco);
+    }
+
+    nav.mobile li:hover {
+        background-color: var(--cinzaSilver);
         text-decoration: none;
     }
 

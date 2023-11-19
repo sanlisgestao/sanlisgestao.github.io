@@ -62,12 +62,24 @@
 
 #navegacao,
 #nav-header {
-    background: var(--verdeYellowGreen);
+    background: linear-gradient(rgba(11, 88, 76, 0.8), rgba(0, 0, 0, 0.8)100%), var(--verdeForestGreen);
     position: fixed;
     width: 100%;
     padding: 10px 0;
     z-index: 3;
 }
+
+.desktop a, .logo a {
+    color: var(--branco);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.desktop a:hover, .logo a:hover {
+    color: var(--cinzaGainsboro);
+    text-decoration: none;
+}
+
 
 nav.desktop ul {
     position: relative;
@@ -78,21 +90,13 @@ nav.desktop ul {
 nav.desktop li {
     display: inline-block;
     text-transform: uppercase;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 300;
     padding: 0 15px;
 }
 
 .logo {
     padding-top: 2px;
-}
-
-.logo a {
-    color: var(--branco);
-}
-
-.logo a:hover {
-    color: var(--verdeDarkGreen);
 }
 
 .mobile {
@@ -112,7 +116,8 @@ nav.desktop li {
 
 footer#rodape,
 footer#nav-footer {
-    background: var(--cinzaGainsboro);
+    background: linear-gradient(rgba(11, 88, 76, 0.8), rgba(0, 0, 0, 0.8)100%), var(--verdeForestGreen);
+    color: var(--cinzaGainsboro);
     padding: 20px 0;
 }
 
@@ -122,8 +127,16 @@ footer.fixed {
     bottom: 0;
 }
 
+footer div article ul li a {
+    color: var(--cinzaGainsboro);
+}
+
 footer div article ul li a:hover {
     color: var(--verdeYellowGreen);
+}
+
+footer header p a {
+    color: var(--cinzaGainsboro);
 }
 
 footer h6 {
@@ -131,7 +144,7 @@ footer h6 {
 }
 
 .redessociais a {
-    color: var(--verdeDarkGreen);
+    color: var(--cinzaGainsboro);
 }
 
 

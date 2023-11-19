@@ -6,13 +6,14 @@
 :root {
     --preto: #000000;
     --branco: #FFFFFF;
-    --cinzaSilver: #C0C0C0;
+    --cinzaSilver: #A9A9A9;
     --cinzaGainsboro: #DCDCDC;
-    --cinzaGrey21: #363636;
-    --verdeDarkGreen: #006400;
-    --verdeForestGreen: #228B22;
-    --verdeYellowGreen: #9ACD32;
+    --cinzaGrey21: #C0C0C0;
+    --verdeDarkGreen: #008000;
+    --verdeForestGreen: #2F4F4F;
+    --verdeYellowGreen: #2E8B57;
 }
+
 
 * {
     margin: 0;
@@ -71,17 +72,6 @@ a button {
     color: var(--branco);
 }
 
-nav a {
-    color: var(--branco);
-    text-decoration: none;
-    cursor: pointer;
-}
-
-nav a:hover {
-    color: var(--verdeDarkGreen);
-    text-decoration: none;
-}
-
 input, select, textarea, button {
     border: 1px solid var(--verdeDarkGreen);
     border-radius: 10px;
@@ -119,7 +109,7 @@ button {
 
 button:hover {
     background: var(--verdeYellowGreen);
-    color: var(--verdeDarkGreen);
+    color: var(--cinzaGainsboro);
 }
 
 li {
