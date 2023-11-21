@@ -1,4 +1,4 @@
-let dataJson = [
+let dataJsonPlanos = [
     {
         id: 1,
         img: '../../staticfiles/img/planobasico.webp',
