@@ -270,3 +270,7 @@ section div article footer {
 .imgEstrutura {
     background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)100%), url(../img/estrategia.webp);
 }
+
+.img-round {
+    border-radius: 50%;
+}
