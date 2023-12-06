@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+*,
+*::before,
+*::after {
+ box-sizing: border-box;
+}
+
+body {
+ margin: 0; 
+ background: #b63c45 fixed;
+ background: radial-gradient(ellipse farthest-corner at center top, #fd6a56 0%, #b63c45 100%) fixed;
+ background: -moz-radial-gradient(center top, ellipse cover,  #fd6a56 0%, #b63c45 100%) fixed;
+ background: -webkit-radial-gradient(center top, ellipse cover,  #fd6a56 0%,#b63c45 100%) fixed;
+ color: #787878;
+ font-size: 14px !important;
+ font-family: 'Raleway', sans-serif !important;
+ -moz-osx-font-smoothing: grayscale;
+ -webkit-font-smoothing: antialiased;
+}
+
+a, a:visited {
+ color: #B63C45;
+ -webkit-transition: color .3s ease;
+ -moz-transition: color .3s ease;
+ -ms-transition: color .3s ease;
+ -o-transition: color .3s ease;
+ transition: color .3s ease;
+}
+a:hover, a:visited:hover {
+ color: #FA6855;
+}
+
+.container {
+ margin-top: 50px;
+ margin-bottom: 50px;
+}
+
+.table-price {
+ background-color: #ffffff;
+ -moz-border-radius: 4px;
+ -webkit-border-radius: 4px;
+ border-radius: 4px;
+ -khtml-border-radius: 4px;
+}
+.col-md-4:first-child+div .table-price {
+ transform: scale(1.05);
+}
+.table-price:hover {
+ transform: scale(1.05);
+}
+.col-md-4:first-child+div .table-price:hover {
+ transform: scale(1.07);
+}
+
+.table-price, .table-price .title, .table-price .price, .table-price .contact {
+ -webkit-transition: all .3s ease;
+ -moz-transition: all .3s ease;
+ -ms-transition: all .3s ease;
+ -o-transition: all .3s ease;
+ transition: all .3s ease;
+}
+
+.table-price .title {
+ text-align: center;
+ line-height: 80px;
+ font-size: 2.5em;
+}
+.table-price .price {
+ text-align: center;
+ line-height: 50px;
+ font-size: 1.5em;
+ background-color: #50514F;
+ color: #ffffff;
+ font-weight: bold;
+}
+.table-price .contact {
+ text-align: center;
+ line-height: 60px;
+ font-size: 1.5em;
+ background-color: #6da34d;
+ color: #ffffff;
+}
+.table-price .contact:hover {
+ background-color: #b63c45;
+}
+.table-price .contact a { display: block; color: #ffffff; }
+.table-price .contact a:hover, .table-price .contact a:visited:hover {
+ text-decoration: none;
+ color: #ffffff;
+}
+
+.table-price:hover .price { background-color: #4e8098; }
+
+.table-price ul {
+ margin: 0;
+ padding: 20px 0;
+ list-style: none;
+ text-align: center;
+}
+.table-price ul li {
+ margin: 0;
+ padding: 0;
+ list-style: none;
+ text-align: center;
+ line-height: 40px;
+}
