@@ -131,9 +131,8 @@ li {
     padding: 5px;
 }
 
-section {
-    margin-left: 5%;
-    margin-right: 5%;
+.container {
+    margin: 50px;
     padding-top: 15px;
 }
 

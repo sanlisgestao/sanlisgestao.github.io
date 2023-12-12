@@ -6,7 +6,8 @@ a {
 
 .purchase {
 	border-top: 11px solid var(--verdeForestGreen);
-	padding: 89px 0 0;
+	margin-top: 70px;
+	padding: 50px 0 0;
 	text-align: center;
 }
 
@@ -25,7 +26,7 @@ a {
 }
 
 .purchase-trigger {
-	margin-top: 50px;
+	margin-top: 70px;
 	border: 1px solid var(--verdeYellowGreen);
 	border-radius: 50px;
 	font-size: 26px;
@@ -54,7 +55,7 @@ a {
 }
 
 .purchase-trigger span {
-	padding: 17px 80px;
+	padding: 17px 580px;
 	color: var(--verdeForestGreen);
 	width: 246px;
 	display: inline-block;

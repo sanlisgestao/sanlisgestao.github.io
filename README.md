@@ -1,6 +1,6 @@
 # Repositório SanLis Gestão
 
-<div> 
+<div>
   <a href = "https://sanlisgestao.github.io/"><img src="people.jpg" target="_blank">SanLis Gestão</a>
   <a href="https://sanlisgestao.github.io/" target="_blank"><img src="people.jpg" target="_blank">Oficina Adjafer</a>
   <a href="https://sanlisgestao.github.io/" target="_blank"><img src="people.jpg" target="_blank">Syssa Baby</a> 
