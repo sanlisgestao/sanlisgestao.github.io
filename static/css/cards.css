@@ -4,7 +4,8 @@
 .card {
     border-radius: 5px;
     box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
-    padding: 10px;
+    background-color: var(--cinzaGainsboro);
+    padding: 20px;
     margin: 20px;
     width: 350px;
     transition: all 0.3s ease-out;
@@ -12,10 +13,11 @@
 
 .card-quemsomos {
     border-radius: 5px;
-    box-shadow: 14px 14px 26px 0px rgba(50, 200, 50, 0.22);
+    box-shadow: 15px 15px 16px 0px rgba(5, 85, 5, 0.4);
     padding: 30px;
     margin: 20px;
     transition: all 0.3s ease-out;
+    line-height: 30px;
 }
 
 .card:hover, .card-quemsomos:hover {
@@ -36,6 +38,10 @@
     border-left: 3px solid var(--color-green);
 }
 
+.red {
+    border-left: 3px solid var(--color-red);
+}
+
 .green-quemsomos {
-    border: 3px dotted var(--cinzaGainsboro);
+    border: 4px dotted var(--cinzaGainsboro);
 }
